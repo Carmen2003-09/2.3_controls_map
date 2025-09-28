@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>three.js webgl - map controls</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+  <!-- CSS separado -->
+  <link type="text/css" rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- 🔹 Navbar flotante -->
+  <nav id="navbar">
+    <span class="brand">three.js Map Controls</span>
+    <span class="links">
+      Link: <a href="https://threejs.org/examples/?q=controls#misc_controls_map" target="_blank">Ejemplo Oficial</a>
+    </span>
+  </nav>
+
+  <!-- Texto descriptivo -->
+  <div id="info">
+    <a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> - map controls
+  </div>
+
+  <!-- Import map para módulos -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "../build/three.module.js",
+        "three/addons/": "./jsm/"
+      }
+    }
+  </script>
+
+  <!-- Tu lógica JS separada -->
+  <script type="module" src="js/main.js"></script>
+
+  <!-- 🔹 Footer con créditos -->
+  <footer>
+    Desarrollado por <strong>Carmen Trejo</strong>
+  </footer>
+</body>
+</html>
